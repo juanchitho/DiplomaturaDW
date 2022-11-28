@@ -19,7 +19,7 @@ h1{
     background-color: rgba(100, 50 ,88,0.5);/* el a del final , le agrega trasparencia */
     width: 400px;/*unidad fija*/
     height: 50vh;/*propiedad del alto de un elemento*/
-    display: inline-block;
+    display: inline-block;/* cambia el comportamiento del elemento de bloque de linea*/
 }
 
 a{
