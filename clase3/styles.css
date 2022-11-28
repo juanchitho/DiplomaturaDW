@@ -1,0 +1,92 @@
+/* comentarios en CSS*/
+/* Selectores*/
+
+/* selector de etiqueta*/
+/* a todos los elementos <p> les asigna las propiedades definidas */
+body{
+    background-image: url(../clase2/imagenes/mesa.jpg);
+    background-attachment: fixed;
+}
+p{
+    color: green!important;/*se puede usar este !important para que gane el el tema de jerarquia, pero no es recomendable*/
+    background-color: #3498db;
+}
+button{
+    background-color: rgb(255, 192, 203);
+    margin-right: 80px;
+}
+h1{
+    background-color: rgba(100, 50 ,88,0.5);/* el a del final , le agrega trasparencia */
+    width: 400px;/*unidad fija*/
+    height: 50vh;/*propiedad del alto de un elemento*/
+    display: inline-block;
+}
+
+a{
+    background-color: tomato;
+    color: white;
+    width: 100px;
+    /* padding-bottom:10px ;*/
+    padding: 10px;
+    border:black 5px solid ;/* 3 valores: el color, el grosor y el tipo de borde*/
+    border-radius: 20px; /* redondear los bordes*/
+    margin-top: 80px;
+    display: block;
+}
+/* selectores de clase */
+/* .nombreDeLaClase */
+.textoRojo{
+    color:red
+}
+
+.letras{
+    /* propiedades...*/
+    color:blue;
+}
+
+/* selectores por id */
+
+#unTexto{
+    background-color: orange;
+}
+
+img{
+   /*width:50% ;/* ancho de un elemento*/
+    height: 100vh;
+}
+ul{
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+}
+li{
+    width: 50%;/*400px*/
+    height: 25%;
+    background-color: blueviolet;
+}
+div{
+    width: 300px;
+    height: 200px;
+    background-image: url(../clase2/imagenes/mesa.jpg);/* colocar una imagen de fondo*/
+}
+
+/* le va a colocar a los elementos todas las propiedades que le asigne */
+/* mas general por etiquetas,despues el por clase, despues el de id*/
+/* color: propiedad de color tipografico */
+
+/*definir colores:
+    ROJO - VERDE - AZUL
+-hexadecimal #A-F 0-9
+-rgb (red,green,blue)
+-rgba()trasparencia : 0 al 255
+-colores predefinidos por CSS
+
+*/
+/* UNIDADES
+
+porcentaje(%) toma como 100% la medida del padre para saber cuanto va a valer el hijo
+
+*/
+/* 50vh view height-> 50% del alto de la pantalla
+   25 vw view width -> 50% del ancho de pantalla
+*/
