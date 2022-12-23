@@ -1,0 +1,17 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}/*este tipo de selectores modifican a todo elemento de nuestro html,(en este caso hasta el boton)*/
+body{
+    background-color: lightpink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}/* aplican a los elementos del body pero no a todos ellos*/
+
+/* unidades: 
+    1rem, 1em -> 16px
+px - % - vh vw */
+
+/* no hacer tipografias menores a los 12/14px */
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
