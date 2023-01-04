@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Oswald:wght@200;500;600&display=swap');
+
+
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }/*este tipo de selectores modifican a todo elemento de nuestro html,(en este caso hasta el boton)*/
@@ -14,4 +17,46 @@ px - % - vh vw */
 
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;/* multiplos*/
+    font-weight: 100;
+    text-decoration: overline;
+    text-shadow:
+            2px 2px gray,     
+            8px 8px 5px white;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+button{
+    font-family: 'BhuTuka Expanded One', cursive;
+    padding: 20px;
+    box-shadow:
+            inset -5px -5px 5px #f90,
+            20px 8px 6px red,
+            5px 5px blue;
+    /* sombras de la "caja" de los elementos: 
+    (externas al elemento) +hacia la derecha,hacia abajo; - hacia la izquierda, hacia arriba
+    (internas -inset) inversa*/
+}
+.subtitulo{
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;/* lowercase - capitalize*/
+    text-align: center;
+    width: 50%;
+    background-color: green;
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none;/*"siempre que haya un none,sirve para sacar una propiedad". sacar el subrayado*/
+}
+ul{
+    list-style-type: circle;
+    /*list-style-image: url(../clase2/imagenes/mesa.jpg);*/
+}
+ol{
+    list-style-type: upper-roman;
 }
