@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Raleway:wght@100;500;600;900&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body{
+    background-color: lightyellow;
+    margin: 0px;
+    
+   
+}
+
+/*--------HOJA--------*/
+/*------- INDEX-------*/
+/*--------------------*/
+.navegacion{
+    background-color:lightskyblue;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    
+}
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.boton{
+    padding: 8px;
+    background-color:#052d46 ;
+    width: 80px;
+    border-radius: 8px;
+    color: whitesmoke;
+
+}
+.link-botom{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedor-tarjetas-recientes{
+    height: 400px;
+    
+    display: flex;
+    flex-direction: row;/* si se comporta en forma de fila o columna */
+
+    justify-content: space-between; /*si es row: le puedo indicar como ubicarse de manera horizontal; si es colum: de manera vertical */
+    align-items: center;/* si es row: alinea a los hijos en sentido vertical; si es column: de manera horizontal*/
+    flex-wrap: wrap;/* les defino para indicarle que respete (wrap) o no(nowrap) el ancho definido de los elementos hijos*/
+    gap: 20px;/* distancia entre los elementos hijos*/
+    margin: 10px 40px;
+}
+
+
+
+.tarjeta{
+    border: 2px solid #052d46;
+    border-radius: 10px;
+    width: 250px;
+    background-color: lightskyblue;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tarjeta>img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    height: fit-content;
+}
+
+.texto-tarjetas, .boton{
+    text-align: center ;
+}
+
+.pie-de-pagina{
+    background-color: #052d46;
+    height: 200px;
+    color: beige;
+}
+
+/*--------HOJA--------*/
+/*-------FORMULARIO---*/
+/*--------------------*/
