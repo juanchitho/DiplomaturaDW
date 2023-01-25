@@ -1,0 +1,33 @@
+section{
+    width: 900px;
+    border: 2px solid black;
+    display: flex;
+    height: 900px;
+    align-items: flex-end;
+    /*generalmente para un menu se usa
+    display: flex;
+    justify-content: space-evenly;
+
+    */
+}
+
+.tamanio{
+    width: 150px;
+    height: 150px;
+}
+.caja1{
+    background-color: red;
+    flex-grow: 0;/*sirve para rellenar en cantidades iguales al padre, si quiero que todas las cajas rellenen por igual pongo un mismo numero distinto de 0.sino va por orden 1,2,3*/
+    flex-shrink: 1;/*no sirve segun el profe*/
+}
+.caja2{
+    background-color: green;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.caja3{
+    background-color: blue;
+    flex-grow: 0;
+    flex-shrink: 1; 
+    flex-basis: 500px;  /*rellena por cantidad en especifico*/ 
+}

@@ -1,0 +1,76 @@
+/*https://www.pexels.com/     imagenes y videos con calidad*/
+/*https://unsplash.com/        imagenes con calidad*/
+
+
+*{/*esto se llama selector universal*/
+    margin: 0;/*borde para afuera*/
+    padding: 0;/*borde para adentro*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+body{
+    background:linear-gradient( rgba(53, 82, 66, 0.5),rgba(47, 80, 63, 0.6)), url(imagen.jpg) center no-repeat;
+    /*https://mybrandnewlogo.com/es/generador-de-gradiente-de-color*/
+    display: flex;/*https://codepen.io/enxaneta/full/adLPwv/*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    height: 100vh;
+}
+
+h1,p{
+    margin-bottom: 15px;
+    color: whitesmoke;
+    animation-name: izquierda;
+    animation-duration: 2s;
+    
+}
+
+button{
+    width: 180px;
+    padding: 12px;
+    margin: 20px;
+    border: 2px solid #eee;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: white;
+
+
+}
+button:hover{
+    background-color: limegreen;
+}
+
+@keyframes izquierda {
+    0%{
+        transform: translateY(-520px);
+    }
+    50%{
+        color: slategrey;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/*
+    Paginas utiles, para motivacion o ideas de diseños
+https://www.behance.net/ 
+https://www.figma.com
+https://dribbble.com/
+ */
