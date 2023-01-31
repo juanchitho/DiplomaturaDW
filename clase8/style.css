@@ -1,0 +1,16 @@
+img{
+    width: 20%
+}
+
+.efectoUno:hover{
+    filter: blur(3px);
+}
+.efectoDos:hover{
+    filter: invert(100%);
+}
+.efectoTres:hover{
+    filter: saturate(3);
+}
+.efectoCuatro:hover{
+    filter: grayscale(20);
+}

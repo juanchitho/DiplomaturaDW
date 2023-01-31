@@ -51,13 +51,13 @@ button:hover{
 
 @keyframes izquierda {
     0%{
-        transform: translateY(-520px);
+        transform: translatey(-520px);
     }
     50%{
         color: slategrey;
     }
     100%{
-        transform: translateY(0);
+        transform: translatey(0);
         opacity: 1;
     }
     
