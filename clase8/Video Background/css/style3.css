@@ -24,3 +24,11 @@ span{
     color: white;
     font-size: 16px;
 }
+.miEstilo{
+    font-size: 50px;
+    color: yellow;
+}
+.miEstilo:hover{
+    color: #333;
+    
+}
