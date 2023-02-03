@@ -1,0 +1,28 @@
+div{
+    background-color: aqua;
+}
+/*Media queries*/
+/*define un rango*/
+/*@media(min-width:800px) and (max-width:1200px){
+    div{
+        background-color:green;
+    }
+}
+*/
+
+/*@media(max-width:1110px){
+    div{
+        background-color:red;
+    }
+}*/
+
+@media(orientation:landscape) and (max-width:1100px){
+    div{
+        background-color:blanchedalmond;
+    }
+}
+@media(orientation:portrait){
+    div{
+        background-color: brown;
+    }
+}

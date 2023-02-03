@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav > a{
+    margin-left: 15px;
+}
+.hamburgesa{
+    color: black;
+    display: none;
+    font-size: 32px;
+}
+@media(max-width:500px){
+    
+    nav,div{
+        display: none;
+    }
+    .hamburgesa{
+        display: block;
+        color: black;
+    }
+    /*
+    header{
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    */
+}
+.contenedorHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(./img/img1.jpg);
+} 
+.tituloHero{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+.textoHero{
+    font-size: 1rem;
+    color: white;
+    max-width: 50%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+button{
+    padding: 0.9rem 1.6rem;
+    border: 1px solid white;
+    color: aqua;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    background-color: white;
+    cursor: pointer;
+
+}
+button:hover{
+    background: transparent;
+    color: white;
+    border-color: aqua;
+}
+/*https://caniuse.com/   pagina para ver compatibilidades de navegadores*/
+
