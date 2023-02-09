@@ -1,6 +1,12 @@
+:root{/* sirve para crear var(variables)*/
+    --colorPrimario: #2eabbb;
+}
 *{
     margin: 0;
     padding: 0;
+}
+html{
+    scroll-behavior: smooth;
 }
 header{
     display: flex;
@@ -21,6 +27,37 @@ nav > a{
     display: none;
     font-size: 32px;
 }
+.aboutImagen{
+    width: 30%;
+}
+.contenedorImgText{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.contenedorTextAbout{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    margin-left: 3.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    justify-content: space-around ;
+    
+}
+.contenedorTextAbout>h2{/*
+    padre>hijo
+    hermano~hermano
+    ancestro desencidente
+    */
+    letter-spacing: 0.3rem;
+}
+.contenedorTextAbout>p{
+    color: gray;
+}
 @media(max-width:500px){
     
     nav,div{
@@ -39,6 +76,9 @@ nav > a{
         flex-direction: column;
     }
     */
+    .contenedorImgText{
+        flex-wrap: wrap;
+    }
 }
 .contenedorHero{
     display: flex;
@@ -46,7 +86,7 @@ nav > a{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(./img/img1.jpg);
+    background:linear-gradient(180deg, rgba(253,225,221,0.6) 0%, rgba(145,119,87,0.6) 37%, rgba(88,52,0,0.6) 100%),url(./img/img1.jpg);
 } 
 .tituloHero{
     font-size: 4rem;
@@ -62,7 +102,7 @@ nav > a{
     text-align: center;
     padding-bottom: 2rem;
 }
-button{
+.btnHero{
     padding: 0.9rem 1.6rem;
     border: 1px solid white;
     color: aqua;
@@ -72,10 +112,85 @@ button{
     cursor: pointer;
 
 }
+.servicios{
+    background-color: #f0f4f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+
+}
+.contenedorServicios{
+    display: flex;
+    width: 70%;
+    
+}
+.contenedorTextoServicios{
+    margin-left: 1rem;
+
+}
+.contenedorTextoServicios>h3{
+    letter-spacing: 0.35rem;
+}
+.contenedorTextoServicios>p{
+    color: grey;
+}
+.colorIcono{
+    font-size: 1.7rem;
+    background-color: var(--colorPrimario);
+    padding: 15px;
+    height: 30px;
+    color: #064E52;
+}
 button:hover{
     background: transparent;
     color: white;
     border-color: aqua;
 }
-/*https://caniuse.com/   pagina para ver compatibilidades de navegadores*/
+.btnAbout{
+    background-color: var(--colorPrimario);
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+    letter-spacing: 0.5rem;
+    text-shadow: uppercase;
+    border: 1px solid #2eabbb;
+}
+.textoPrincipal{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+    letter-spacing: 0.5rem;
+    font-size: 2.8rem;
+}
+span{
+    color: #2eabbb;
+}
+.about{
+    padding-bottom: 3rem;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 25%;
+    
+}
+
+@media (max-width:900px) {
+    img{
+        flex-basis: 50%;
+    }    
+}
+@media (max-width:500px) {
+    img{
+        flex-basis: 100%;
+    }
+}
+/*https://caniuse.com/   pagina para ver compatibilidades de navegadores
+Just Color Picker ---> app para ver el color de una imagen o documento
+*/
+
 
